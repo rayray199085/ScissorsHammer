@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D0FFF7421F8201800DD68FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFF7321F8201800DD68FD /* main.m */; };
+		0D0FFF7C21F8202C00DD68FD /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFF7B21F8202C00DD68FD /* Player.m */; };
+		0D0FFF8021F8216E00DD68FD /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFF7F21F8216E00DD68FD /* Robot.m */; };
+		0D0FFF8321F8236500DD68FD /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFF8221F8236500DD68FD /* Judge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,14 @@
 /* Begin PBXFileReference section */
 		0D0FFF7021F8201800DD68FD /* ScissorsHammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScissorsHammer; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0FFF7321F8201800DD68FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D0FFF7A21F8202C00DD68FD /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0D0FFF7B21F8202C00DD68FD /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		0D0FFF7D21F8209B00DD68FD /* Options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		0D0FFF7E21F8216E00DD68FD /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		0D0FFF7F21F8216E00DD68FD /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		0D0FFF8121F8236500DD68FD /* Judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
+		0D0FFF8221F8236500DD68FD /* Judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
+		0D0FFF8421F8241300DD68FD /* Possibilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Possibilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				0D0FFF7321F8201800DD68FD /* main.m */,
+				0D0FFF7A21F8202C00DD68FD /* Player.h */,
+				0D0FFF7B21F8202C00DD68FD /* Player.m */,
+				0D0FFF7D21F8209B00DD68FD /* Options.h */,
+				0D0FFF7E21F8216E00DD68FD /* Robot.h */,
+				0D0FFF7F21F8216E00DD68FD /* Robot.m */,
+				0D0FFF8121F8236500DD68FD /* Judge.h */,
+				0D0FFF8221F8236500DD68FD /* Judge.m */,
+				0D0FFF8421F8241300DD68FD /* Possibilities.h */,
 			);
 			path = ScissorsHammer;
 			sourceTree = "<group>";
@@ -118,6 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0FFF8021F8216E00DD68FD /* Robot.m in Sources */,
+				0D0FFF8321F8236500DD68FD /* Judge.m in Sources */,
+				0D0FFF7C21F8202C00DD68FD /* Player.m in Sources */,
 				0D0FFF7421F8201800DD68FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
